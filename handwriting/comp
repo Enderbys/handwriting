@@ -1,0 +1,9 @@
+g++ -c net.cpp
+g++ -c boolarray.cpp
+g++ -c training.cpp
+g++ -c window.cpp
+ 
+g++ training.o net.o boolarray.o window.o main.cpp -o main -lglut -lGL -lGLU
+
+rm *.o
+
